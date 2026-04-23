@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Roboto';
+    
+
+    display: flex;
+    flex-direction: column;
+
+
+    font-family: 'Comfortaa', monospace;
+    background-color: rgba(128, 128, 128, 0.136);
+
+
+    margin: 0px;
+    padding: 0px;
+
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    /*position: fixed;*/
+    /*top: 0px;*/
+
+    padding: 1%;
+    width: 96%;
+
+    text-align: center;
+
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 2%;
+
+    width: 100%;
+
+    align-items: center;
+
+}
+
+
+
+
+
+div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+    border: 1px solid black;
+
+    padding: 3%;
+
+
+    width: 55%;
+    height: 90%;
+
+
+}
+
+
+
+
+
+button {
+    font-size: larger;
+
+    width: 95%;
+    height: 60px;
+    
+
+    
+    background-color: green;
+    color: white;
+    
+
+
+    
+}
+
+
+.h1e, .p1e {
+    margin: 0px;
+}
+
+.p1e {
+    margin-bottom: 5%;
+    color: red;
+
+}
+
+
+footer {
+    padding: 1.5%;
+    width: 96%;
+
+    background-color: white;
+    text-align: center;
+}
+
+
+footer p {
+    margin: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin: 12%;
+    }
+    div {
+        width: 80%;
+    }
+    
+}
